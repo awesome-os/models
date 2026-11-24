@@ -1,0 +1,64 @@
+{
+  "schema": "awesome-os-models-manifest-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "models": [
+    {
+      "id": "spinwave-moe",
+      "category": "neuromorphic-router",
+      "format": "b8p-int8",
+      "magic": "B8SW",
+      "sizeBytes": 10934,
+      "sourcePath": "intersections/spinwave-bus/spinwave-moe.mts",
+      "docPath": "docs/architecture/SPINWAVE-COMPUTING-AND-MAGNONIC-INTERSECTIONS.md",
+      "status": "implemented-verified"
+    },
+    {
+      "id": "b8g-micro-moe",
+      "category": "neuromorphic-router",
+      "format": "b8p",
+      "sourcePath": "github-mirror/awesome-os/b8g-micro-moe",
+      "docPath": "docs/research/COMPOSABLE-B8P-MICRO-MOE-PAPER.md",
+      "status": "implemented-verified"
+    },
+    {
+      "id": "lumibert",
+      "category": "error-repair",
+      "format": "b8p",
+      "sourcePath": "intersections/b8g-devops-harness",
+      "docPath": "docs/research/06-universal-algebraic-error-loop-lsp-for-small-models.md",
+      "status": "implemented-verified"
+    },
+    {
+      "id": "b8g-app-dedup-path-mlp",
+      "category": "labeling-classifier",
+      "format": "b8p-int8",
+      "magic": "B8GP",
+      "sizeBytes": 42192,
+      "sourcePath": "github-mirror/awesome-os/b8g-app-dedup/src/path-model.mts",
+      "status": "implemented-verified"
+    },
+    {
+      "id": "xenon-1b-kalaschnikow-atlaskv",
+      "category": "sovereign-llm",
+      "format": "b8p-gguf",
+      "sourcePath": "repository/model-kalaschnikow-v0.1-pre.1",
+      "docPath": "docs/models/02-b8g-xenon-1b-kalaschnikow-atlaskv.md",
+      "status": "research-prototype"
+    },
+    {
+      "id": "inkling-2-mini-looped-moe",
+      "category": "sovereign-llm",
+      "format": "research-spec",
+      "docPath": "docs/models/01-inkling-2-mini-looped-moe.md",
+      "status": "research-spec"
+    },
+    {
+      "id": "littlebit-nanoquant-sub1bit",
+      "category": "quantization",
+      "format": "sub-1-bit",
+      "docPath": "docs/models/03-sub-1-bit-littlebit-nanoquant.md",
+      "status": "research-spec"
+    }
+  ]
+}

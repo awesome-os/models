@@ -1,0 +1,13 @@
+{
+  "name": "@awesome-os/models",
+  "version": "0.1.0",
+  "description": "Unified Awesome-OS models registry (neuromorphic routers, labeling classifiers, error-repair models, and sovereign LLMs)",
+  "type": "module",
+  "main": "./index.mts",
+  "module": "./index.mts",
+  "types": "./index.mts",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "test": "node --test models.test.mts"
+  }
+}
