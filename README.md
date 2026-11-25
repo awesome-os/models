@@ -49,3 +49,13 @@ node --test models.test.mts
 ## 2. Manifest & ABI Contract
 
 All models target **`B8G_ABI_MAGIC_V3` (`0x33564742`)** and are content-addressed in the unified **`v11/files/00..ff/<sha512>`** CAS store. See [`models-manifest.json`](./models-manifest.json) and [`index.mts`](./index.mts).
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/models@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://node/models?from=repository://github.com/awesome-os/models@main"
+```
