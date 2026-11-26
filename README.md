@@ -1,3 +1,6 @@
+> [!NOTE]
+> Consolidated into https://github.com/awesome-os/agent-platform
+
 # Awesome-OS Models (`awesome-os/models`)
 
 > **Unified registry & hub for all Awesome-OS machine learning, neuromorphic/analog routing, labeling, error-repair, and sovereign LLM models — governed by Section–Intersection Algebra × Software-Defined Analog Computing × `CAS Q-Self` (`v11`).**
